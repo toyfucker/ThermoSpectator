@@ -1,33 +1,29 @@
-/*git test branch work
-/*git test branch master
-/*git test 02
-#include <WiFi.h>
-#include <NTPClient.h>
+//Adding libraries to the project
+#include <WiFi.h> 
+#include <NTPClient.h> 
 #include <WiFiUdp.h>
+#include "OneWire.h" /*one-wire interface for getting data from DS18b20 sensors
+#include "DallasTemperature.h" /* Thermo sensor support DS18b20 
+#include <WebServer.h> /* 
+#include <Math.h> /* I forgot why I've add it
+#include "driver/timer.h" /* I forgot why I've add it
 
-#include "OneWire.h"
-#include "DallasTemperature.h"
-#include <WebServer.h>
-#include <Math.h>
-#include "driver/timer.h"
 
-
-#define ONE_WIRE_BUS 23
-//#define LED_BUILTIN  23
+#define ONE_WIRE_BUS 23 /* The Data-pin of DS18b20 has been connected to 23-th pin of ESP32
 OneWire oneWire(ONE_WIRE_BUS);
 DallasTemperature sensors(&oneWire);
-
 WiFiUDP ntpUDP;
 NTPClient timeClient(ntpUDP);
 
-String formattedDate[289];
-String formDate;
-String str_minutes;
+//Descrptions of values types
+String formattedDate[289]; /* Fomatted date is string type for storing time values like following examples 00:01 05:16  07:03  23:59
+String formDate; /* Try to delete it and test again. Seems it was added during debug process
+String str_minutes; 
 String str_hours;
 float temp1;float temp2;float temp3;float temp4;
-float Rx;
-float temp11[289];float temp22[289];float temp33[289];float temp44[289];
-int hours;
+float Rx; /*WiFi Rx-level in dBm  (relation of 1.0 mW power)
+float temp11[289];float temp22[289];float temp33[289];float temp44[289]; /*Array type for storing temperatures value in each 5-th minutes period. If divide 24 hours to 5-th minutes interval, we'll get 248 
+int hours; 
 int minutes;
 
 //const char* ssid = "KOCTR KOMOB";  
