@@ -90,37 +90,35 @@ void loop(void) {
 
     //опрашиваем датчики
     sensors.requestTemperatures();temp11[288]=sensors.getTempC(sensor1)+15;temp22[288]=sensors.getTempC(sensor2)+12;temp33[288]=sensors.getTempC(sensor3);temp44[288]=sensors.getTempC(sensor4);
-    //koрректируем значение датчика OUTDOOR для отрицательных температур    if (temp44[288] < -20) {temp44[288] = temp44[288] * 1.1;}
-
-
-    if (WiFi.status() != WL_CONNECTED) {
-      delay(10000);WiFi.begin(ssid,password);Serial.println(WiFi.localIP());Serial.println(WiFi.RSSI());delay(10000);
-      //поменять WiFi на цикл for, по истечению которого, если не удалось подключиться к WiFi, то выполнить ESP.Reset
-      }
-    // 31.07.2023 !!! handle_OnConnect();
     
+    //поменять WiFi на цикл for (c 10-ти секундной задержкой на каждом шаге), по истечению которого, если не удалось подключиться к WiFi, то выполнить общий ESP.Reset
+    if (WiFi.status() != WL_CONNECTED) {delay(10000);WiFi.begin(ssid,password);Serial.println(WiFi.localIP());Serial.println(WiFi.RSSI());delay(10000);}
+    // 31.07.2023 !!! handle_OnConnect(); Не помню зачем я вызывал OnConnect. И не вспомню. Может для дебаггинга...
+    
+    //Блок получения времени по NTP и приведения значений времени в формат 00:00
     timeClient.update();
     hours = timeClient.getHours();Serial.println(hours); minutes = timeClient.getMinutes();Serial.println(minutes);
-    if (hours<10) {str_hours='0'+String(hours);} else {str_hours=String(hours);}
-    if (minutes<10) {str_minutes='0'+String(minutes);} else {str_minutes=String(minutes);}
-    //formattedDate[288] = (String(timeClient.getHours()))+':'+(String(timeClient.getMinutes()));
-    formattedDate[288] = str_hours+':'+str_minutes;
-    Serial.println(formattedDate[288]);
+    if (hours<10) {str_hours='0'+String(hours);} else {str_hours=String(hours);} /*добавляем ноль перед цифрой если число меньше десяти. Это для часа.
+    if (minutes<10) {str_minutes='0'+String(minutes);} else {str_minutes=String(minutes);} /*добавляем ноль перед цифрой если число меньше десяти. Это для минут
+    formattedDate[288] = str_hours+':'+str_minutes; Serial.println(formattedDate[288]);
     }
 }
 
 
- 
+//Основной вызов при GET 
 void handle_OnConnect() {
 sensors.requestTemperatures(); 
 digitalWrite(LED_BUILTIN, HIGH);
+
+//Опрашиваем сенсоры и WiFi 
 temp1=sensors.getTempC(sensor1)+15;
 temp2=sensors.getTempC(sensor2)+12;
 temp3=sensors.getTempC(sensor3);
 temp4=sensors.getTempC(sensor4); 
-//koрректируем значение датчика OUTDOOR для отрицательных температур  if (temp4 < -20 ) {temp4 = temp4 * 1.1;}
-server.send(200, "text/html", SendHTML(temp1,temp2));
 Rx = (WiFi.RSSI());
+server.send(200, "text/html", SendHTML(temp1,temp2));
+
+//Трижды мигаем светодиодом, показывая, что мы дошли до 
 digitalWrite(LED_BUILTIN, LOW); delay(300);digitalWrite(LED_BUILTIN, HIGH);delay(300);digitalWrite(LED_BUILTIN, LOW);delay(300);digitalWrite(LED_BUILTIN, HIGH);delay(300);digitalWrite(LED_BUILTIN, LOW);digitalWrite(LED_BUILTIN, HIGH);delay(300);digitalWrite(LED_BUILTIN, LOW);
  }
 void handle_NotFound() {server.send(404, "text/plain", "Not found");}
