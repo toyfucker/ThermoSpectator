@@ -25,6 +25,7 @@ float Rx; /*WiFi Rx-level in dBm  (relation of 1.0 mW power)*/
 float temp11[289];float temp22[289];float temp33[289];float temp44[289]; /*Array type for storing temperatures value in each 5-th minutes period. If divide 24 hours to 5-th minutes interval, we'll get 248 */
 int hours; 
 int minutes;
+String ip;
 
 //const char* ssid = "KOCTR KOMOB";  
 // Set your Static IP address and set your Gateway IP address
@@ -116,6 +117,7 @@ temp2=sensors.getTempC(sensor2)+12;
 temp3=sensors.getTempC(sensor3);
 temp4=sensors.getTempC(sensor4); 
 Rx = (WiFi.RSSI());
+ip = WiFi.localIP().toString();
 server.send(200, "text/html", SendHTML(temp1,temp2));
 
 //Трижды мигаем светодиодом, показывая, что мы дошли до 
@@ -161,7 +163,7 @@ ptr +="<body>                                                                   
 ptr +=" <h1>THERMEX</h1>                                                                                                                                                                             \n";
 ptr +="<p>HOT="; ptr +=temp1;ptr +="    COLD=";ptr +=temp2; ptr +="</p>";
 ptr +="<p>INDOOR="; ptr +=temp3; ptr +="   OUTDOOR="; ptr +=temp4; ptr +="</p>";
-ptr +="<p>Rx="; ptr +=Rx; ptr +="   dBm"; ptr +="</p>";
+
 
 //Serial.print("IP address: "); Serial.println(WiFi.localIP());Serial.print("MAC=");Serial.println(WiFi.macAddress());Serial.print("Rx Level=");Serial.print(WiFi.RSSI());Serial.print("dBm");
 
@@ -519,6 +521,10 @@ ptr +="['"; ptr +=formattedDate[288]; ptr +="',"; ptr +=temp11[288]; ptr +=","; 
 
 ptr +="}\n";
 ptr +="</script>                                                                                                                                                                                     \n";
+
+ptr +="<p>WiFi Rx="; ptr +=Rx; ptr +="   dBm"; ptr +="</p>";
+ptr +="<p>IP "; ptr +=ip; ptr +="   address"; ptr +="</p>";
+
 ptr +="</body>                                                                                                                                                                                       \n";
 ptr +="</html>                                                                                                                                                                                       \n";
 
