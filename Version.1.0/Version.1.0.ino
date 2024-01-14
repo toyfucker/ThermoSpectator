@@ -31,7 +31,7 @@ String ip;
 // Set your Static IP address and set your Gateway IP address
 const char* ssid = "MikroTik"; const char* password =  "independence";
 WebServer server(80);
-IPAddress local_IP(192, 168, 1, 19);
+IPAddress local_IP(192, 168, 1, 48);
 IPAddress gateway(192, 168, 1, 1);
 IPAddress subnet(255, 255, 255, 0);
 
@@ -51,9 +51,14 @@ void setup(void) {
   sensors.begin();
   pinMode(LED_BUILTIN, OUTPUT);
   digitalWrite(LED_BUILTIN, HIGH);delay(100);digitalWrite(LED_BUILTIN, LOW);delay(100);digitalWrite(LED_BUILTIN, HIGH);delay(100);digitalWrite(LED_BUILTIN, LOW);delay(100);digitalWrite(LED_BUILTIN, HIGH);delay(100);digitalWrite(LED_BUILTIN, LOW);delay(100);digitalWrite(LED_BUILTIN, HIGH);delay(100);digitalWrite(LED_BUILTIN, LOW);delay(100);digitalWrite(LED_BUILTIN, HIGH);
-  Serial.print("Connecting to ");Serial.print(ssid);
-  WiFi.begin(ssid,password);
+  Serial.print("Connecting to SSID: ");Serial.print(ssid);
+  //WiFi.begin(ssid,password);
   //WiFi.config(local_IP, gateway, subnet);
+
+for (int ii = 1; ii<10; ii++) {
+if (WiFi.status() != WL_CONNECTED) {delay(1000);WiFi.begin(ssid,password);Serial.println(WiFi.localIP());Serial.println(WiFi.RSSI());delay(1000);}
+}
+
   delay(3000);
   //поменять while на цикл for, по истечению которого, если не удалось подключиться к WiFi, то выполнить ESP.Reset
   //while (WiFi.status() != WL_CONNECTED) { digitalWrite(LED_BUILTIN, LOW);WiFi.begin(ssid,password); Serial.print(".");delay(3000);digitalWrite(LED_BUILTIN, HIGH);}
