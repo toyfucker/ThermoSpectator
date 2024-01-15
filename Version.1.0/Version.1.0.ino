@@ -123,7 +123,12 @@ temp3=sensors.getTempC(sensor3);
 temp4=sensors.getTempC(sensor4); 
 Rx = (WiFi.RSSI());
 ip = WiFi.localIP().toString();
-server.send(200, "text/html", SendHTML(temp1,temp2));
+hours2 = timeClient.getHours();Serial.println(hours2); minutes2 = timeClient.getMinutes();Serial.println(minutes2);
+    if (hours2<10) {str_hours2='0'+String(hours2);} else {str_hours2=String(hours2);} /*добавляем ноль перед цифрой если число меньше десяти. Это для часа.*/
+    if (minutes2<10) {str_minutes2='0'+String(minutes2);} else {str_minutes2=String(minutes2);} /*добавляем ноль перед цифрой если число меньше десяти. Это для минут*/
+formattedDate2 = str_hours2+':'+str_minutes2; Serial.println(formattedDate2);
+  
+  server.send(200, "text/html", SendHTML(temp1,temp2));
 
 //Трижды мигаем светодиодом, показывая, что мы дошли до 
 digitalWrite(LED_BUILTIN, LOW); delay(300);digitalWrite(LED_BUILTIN, HIGH);delay(300);digitalWrite(LED_BUILTIN, LOW);delay(300);digitalWrite(LED_BUILTIN, HIGH);delay(300);digitalWrite(LED_BUILTIN, LOW);digitalWrite(LED_BUILTIN, HIGH);delay(300);digitalWrite(LED_BUILTIN, LOW);
@@ -168,7 +173,7 @@ ptr +="<body>                                                                   
 ptr +=" <h1>THERMEX</h1>                                                                                                                                                                             \n";
 ptr +="<p>HOT="; ptr +=temp1;ptr +="    COLD=";ptr +=temp2; ptr +="</p>";
 ptr +="<p>INDOOR="; ptr +=temp3; ptr +="   OUTDOOR="; ptr +=temp4; ptr +="</p>";
-
+ptr +="<p>Current time:="; ptr +=formattedDate2; ptr +="</p>";
 
 //Serial.print("IP address: "); Serial.println(WiFi.localIP());Serial.print("MAC=");Serial.println(WiFi.macAddress());Serial.print("Rx Level=");Serial.print(WiFi.RSSI());Serial.print("dBm");
 
