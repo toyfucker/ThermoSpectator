@@ -16,16 +16,24 @@ WiFiUDP ntpUDP;
 NTPClient timeClient(ntpUDP);
 
 //Descrptions of values types
-String formattedDate[289]; /* Fomatted date is string type for storing time values like following examples 00:01 05:16  07:03  23:59*/
+String formattedDate[289];  /* Formatted date is string type for storing time values like following examples 00:01 05:16  07:03  23:59*/
 String formDate; /* Try to delete it and test again. Seems it was added during debug process*/
 String str_minutes; 
-String str_hours;
+String str_hours; 
+String str_minutes2; 
+String str_hours2;
+String ip;
+String formattedDate2;
+
 float temp1;float temp2;float temp3;float temp4;
 float Rx; /*WiFi Rx-level in dBm  (relation of 1.0 mW power)*/
 float temp11[289];float temp22[289];float temp33[289];float temp44[289]; /*Array type for storing temperatures value in each 5-th minutes period. If divide 24 hours to 5-th minutes interval, we'll get 248 */
+
 int hours; 
 int minutes;
-String ip;
+int hours2; 
+int minutes2;
+
 
 //const char* ssid = "KOCTR KOMOB";  
 // Set your Static IP address and set your Gateway IP address
@@ -173,7 +181,7 @@ ptr +="<body>                                                                   
 ptr +=" <h1>THERMEX</h1>                                                                                                                                                                             \n";
 ptr +="<p>HOT="; ptr +=temp1;ptr +="    COLD=";ptr +=temp2; ptr +="</p>";
 ptr +="<p>INDOOR="; ptr +=temp3; ptr +="   OUTDOOR="; ptr +=temp4; ptr +="</p>";
-ptr +="<p>Current time:="; ptr +=formattedDate2; ptr +="</p>";
+ptr +="<p>current time: "; ptr +=formattedDate2; ptr +="</p>";
 
 //Serial.print("IP address: "); Serial.println(WiFi.localIP());Serial.print("MAC=");Serial.println(WiFi.macAddress());Serial.print("Rx Level=");Serial.print(WiFi.RSSI());Serial.print("dBm");
 
