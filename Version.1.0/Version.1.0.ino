@@ -541,7 +541,7 @@ ptr +="}\n";
 ptr +="</script>                                                                                                                                                                                     \n";
 
 ptr +="<p>WiFi Rx="; ptr +=Rx; ptr +="   dBm"; ptr +="</p>";
-ptr +="<p>IP "; ptr +=ip; ptr +="   address"; ptr +="</p>";
+ptr +="<p>IP "; ptr +=ip; ptr +="</p>";
 
 ptr +="</body>                                                                                                                                                                                       \n";
 ptr +="</html>                                                                                                                                                                                       \n";
