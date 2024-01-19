@@ -4,15 +4,15 @@
 <td>ESR1x</td>
 <td>ESR2x</td><
 <td>ESR3x</td>
-<td>ESR15</td>
-<td>ESR31</td>
 <td>ESR200</td>
 <td>ESR1000</td>
 <td>ESR1200</td>
 <td>ESR15xx</td>
 <td>ESR1700</td>
 <td>ESR3100</td>
+<td>ESR15</td>
 <td>ESR3200</td>
+<td>ESR31</td>
 <td>Задача в Redmine</td>
 </thead>
 <tbody>
@@ -38,11 +38,23 @@
 <td>Задача в Redmine</td>
 </tr>
 
-<tr>
+
 <td>Обнаружение</td>
-<td colspan="9" align="center">+</td>
-<td></td>
-</tr>
+<td>нет устройства</td>
+<td>+</td>
+<td>+</td>
+<td>нет устройства</td>
+<td>+</td>
+<td>нет устройства</td>
+<td>+</td>
+<td>нет устройства</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>Задача в Redmine</td>
+
+
 
 <tr>
 <td>Синхронизация конфигурации</td>
