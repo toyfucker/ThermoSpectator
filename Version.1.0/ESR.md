@@ -4,6 +4,8 @@
 <td>ESR1x</td>
 <td>ESR2x</td><
 <td>ESR3x</td>
+<td>ESR15</td>
+<td>ESR31</td>
 <td>ESR200</td>
 <td>ESR1000</td>
 <td>ESR1200</td>
@@ -11,6 +13,7 @@
 <td>ESR1700</td>
 <td>ESR3100</td>
 <td>ESR3200</td>
+
 <td>Задача в Redmine</td>
 </thead>
 <tbody>
