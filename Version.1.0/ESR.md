@@ -14,6 +14,9 @@
 <td>ESR3100</td>
 <td>ESR3200</td>
 
+
+
+
 <td>Задача в Redmine</td>
 </thead>
 <tbody>
