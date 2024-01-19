@@ -2,8 +2,9 @@
 <thead>
 <td>Модель устройства</td>
 <td>ESR1x</td>
-<td>ESR2x</td>
-<td>ESR100/200</td>
+<td>ESR2x</td><
+<td>ESR3x</td>
+<td>ESR200</td>
 <td>ESR1000</td>
 <td>ESR1200</td>
 <td>ESR15xx</td>
