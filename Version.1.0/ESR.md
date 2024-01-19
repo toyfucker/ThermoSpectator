@@ -13,7 +13,6 @@
 <td>ESR1700</td>
 <td>ESR3100</td>
 <td>ESR3200</td>
-
 <td>Задача в Redmine</td>
 </thead>
 <tbody>
@@ -24,8 +23,19 @@
 
 <tr>
 <td>Ручное добавление</td>
-<td colspan="9" align="center">+</td>
-<td></td>
+<td>нет устройства</td>
+<td>+</td>
+<td>+</td>
+<td>нет устройства</td>
+<td>+</td>
+<td>нет устройства</td>
+<td>+</td>
+<td>нет устройства</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>Задача в Redmine</td>
 </tr>
 
 <tr>
