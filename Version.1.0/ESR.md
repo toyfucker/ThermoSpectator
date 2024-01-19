@@ -4,7 +4,7 @@
 <td>ESR1x</td>
 <td>ESR2x</td><
 <td>ESR3x</td>
-<td>ESR200</td>
+<td>ESR100</td>
 <td>ESR1000</td>
 <td>ESR1200</td>
 <td>ESR15xx</td>
@@ -26,16 +26,16 @@
 <td>нет устройства</td>
 <td>+</td>
 <td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
 <td>нет устройства</td>
 <td>+</td>
-<td>нет устройства</td>
-<td>+</td>
-<td>нет устройства</td>
 <td>+</td>
 <td>+</td>
 <td>+</td>
-<td>+</td>
-<td>Задача в Redmine</td>
+<td>##</td>
 </tr>
 
 
@@ -43,23 +43,34 @@
 <td>нет устройства</td>
 <td>+</td>
 <td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
 <td>нет устройства</td>
 <td>+</td>
-<td>нет устройства</td>
-<td>+</td>
-<td>нет устройства</td>
 <td>+</td>
 <td>+</td>
 <td>+</td>
-<td>+</td>
-<td>Задача в Redmine</td>
+<td>##</td>
 
 
 
 <tr>
 <td>Синхронизация конфигурации</td>
-<td colspan="9" align="center">+</td>
-<td></td>
+<td>нет устройства</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>нет устройства</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>##</td>
 </tr>
 
 <tr>
@@ -70,8 +81,19 @@
 
 <tr>
 <td>Изменение конфигурации по SSH</td>
-<td colspan="9" align="center">+</td>
-<td></td>
+<td>нет устройства</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>нет устройства</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>##</td>
 </tr>
 
 <tr>
