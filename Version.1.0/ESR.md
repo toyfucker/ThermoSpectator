@@ -92,18 +92,18 @@
 
 <tr>
 <td>Изменение конфигурации по SSH</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<td>+</td>
+<td>-</td>
 <td>+</td>
 <td>+</td>
-<td></td>
-<td></td>
+<td>+</td>
+<td>-</td>
+<td>+</td>
+<td>-</td>
+<td>++</td>
+<td>++</td>
+<td>+</td>
+<td>-</td>
 <td>##</td>
 </tr>
 
@@ -138,8 +138,19 @@
 
 <tr>
 <td>Перезагрузка устройства</td>
-<td colspan="9" align="center">+</td>
-<td></td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>-</td>
+<td>+</td>
+<td>-</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>##</td>
 </tr>
 
 <tr>
