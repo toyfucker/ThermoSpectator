@@ -74,13 +74,7 @@
 </tr>
 
 <tr>
-<td>Журналирование синхронизации</td>
-<td colspan="9" align="center">+</td>
-<td></td>
-</tr>
-
-<tr>
-<td>Изменение конфигурации по SSH</td>
+<td>Журналирование синхронизации конфигурации</td>
 <td>+</td>
 <td>+</td>
 <td>+</td>
@@ -97,9 +91,37 @@
 </tr>
 
 <tr>
-<td>Журналирование изменения синхронизации по SSH</td>
-<td colspan="9" align="center">+</td>
+<td>Изменение конфигурации по SSH</td>
 <td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>+</td>
+<td>+</td>
+<td></td>
+<td></td>
+<td>##</td>
+</tr>
+
+<tr>
+<td>Журналирование изменение конфигурации по SSH</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>+</td>
+<td>+</td>
+<td></td>
+<td></td>
+<td>##</td>
 </tr>
 
 <tr>
