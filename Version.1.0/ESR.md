@@ -109,18 +109,18 @@
 
 <tr>
 <td>Журналирование изменение конфигурации по SSH</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
 <td>+</td>
 <td>+</td>
-<td></td>
-<td></td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
 <td>##</td>
 </tr>
 
