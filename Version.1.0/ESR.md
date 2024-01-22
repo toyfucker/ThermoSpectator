@@ -246,12 +246,6 @@
 </tr>
 
 <tr>
-<td>Доступность устройства</td>
-<td colspan="9" align="center">+</td>
-<td></td>
-</tr>
-
-<tr>
 <td>Интерфейсы</td>
 <td colspan="9" align="center">+</td>
 <td></td>
