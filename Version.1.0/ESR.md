@@ -95,7 +95,7 @@
 <td>+</td>
 <td>+</td>
 <td>+</td>
-<td>-</td>
+<td>+</td>
 <td>+</td>
 <td>-</td>
 <td>+</td>
@@ -106,7 +106,7 @@
 </tr>
 
 <tr>
-<td>Журналирование изменение конфигурации по SSH</td>
+<td>Журналирование изменения конфигурации по SSH</td>
 <td>+</td>
 <td>+</td>
 <td>+</td>
@@ -123,17 +123,36 @@
 
 <tr>
 <td>Изменение конфигурации по SFTP</td>
-<td colspan="9" align="center">+</td>
-<td></td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
 </tr>
 
 <tr>
 <td>Журналирование изменения конфигурации по SFTP</td>
-<td colspan="9" align="center">+</td>
-<td></td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
 <tr>
 
-<tr>
 <td>Перезагрузка устройства</td>
 <td>+</td>
 <td>+</td>
@@ -151,8 +170,18 @@
 
 <tr>
 <td>Нестандартное SNMP Community RO</td>
-<td colspan="9" align="center">+</td>
-<td></td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
 </tr>
 
 <tr>
@@ -173,8 +202,18 @@
 
 <tr>
 <td>Индивидуальные настройки адаптера SFTP</td>
-<td colspan="9" align="center">+</td>
-<td></td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
 </tr>
 
 <tr>
@@ -245,6 +284,18 @@
 
 <tr>
 <td><b>Мониторинг</b></td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
 </tr>
 
 <tr>
@@ -252,21 +303,15 @@
 <td>+</td>
 <td>+</td>
 <td>+</td>
-<td>+
-  прерывается</td>
-<td>+
-  прерывается</td>
-<td>+
-  прерывается</td>
-<td>+
-  прерывается</td>
 <td>+</td>
 <td>+</td>
-<td>+
-  прерывается</td>
 <td>+</td>
-<td>+
-  прерывается</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
 </tr>
 
 <tr>
