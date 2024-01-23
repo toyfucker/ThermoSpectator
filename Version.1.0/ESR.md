@@ -157,18 +157,18 @@
 
 <tr>
 <td>Индивидуальные настройки адаптера SSH</td>
-<td> </td>
-<td> </td>
-<td> </td>
-<td> </td>
-<td> </td>
-<td> </td>
-<td> </td>
-<td> </td>
-<td> </td>
 <td>+</td>
-<td> </td>
-<td> </td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
 </tr>
 
 <tr>
