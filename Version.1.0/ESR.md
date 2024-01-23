@@ -361,6 +361,8 @@
 <tr>
 <td>Обновление на старшую версию (Update)</td>
 <td>+</td>
+<td>+</td>
+<td>+</td>
 <td></td>
 <td></td>
 <td></td>
@@ -368,17 +370,15 @@
 <td></td>
 <td></td>
 <td></td>
-<td></td>
-<td></td>
-<td></td>
+<td>-</td>
 <td></td>
 </tr>
 
 <tr>
 <td>Обновление на младшую версию (Downgrade)</td>
-<td>?</td>
-<td></td>
-<td></td>
+<td>no config</td>
+<td>no config</td>
+<td>no config</td>
 <td></td>
 <td></td>
 <td></td>
