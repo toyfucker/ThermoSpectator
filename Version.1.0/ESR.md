@@ -373,7 +373,6 @@
 <tr>
 <td>Обновления устройства с шейпером</td>
 <td colspan="9" align="center">-</td>
-<td><a href="http://red.eltex.loc/issues/177940">#177940</a></td>
 </tr>
 
 <tr>
