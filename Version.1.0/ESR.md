@@ -360,13 +360,33 @@
 
 <tr>
 <td>Обновление на старшую версию (Update)</td>
-<td colspan="9" align="center">+</td>
+<td>+</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
 <td></td>
 </tr>
 
 <tr>
 <td>Обновление на младшую версию (Downgrade)</td>
-<td colspan="9" align="center">+</td>
+<td>?</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
 <td></td>
 </tr>
 
