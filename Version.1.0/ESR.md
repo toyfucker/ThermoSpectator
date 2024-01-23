@@ -13,7 +13,6 @@
 <td>ESR15</td>
 <td>ESR3200</td>
 <td>ESR31</td>
-<td>Задача в Redmine</td>
 </thead>
 <tbody>
 
@@ -35,7 +34,6 @@
 <td>+</td>
 <td>+</td>
 <td>+</td>
-<td>##</td>
 </tr>
 
 
@@ -51,8 +49,8 @@
 <td>+</td>
 <td>+</td>
 <td>+</td>
-<td>-</td>
-<td>##</td>
+<td> <a href=http://red.eltex.loc/issues/289950 a> #289950 </a> </td>
+
 
 
 
@@ -65,12 +63,12 @@
 <td>+</td>
 <td>+</td>
 <td>+</td>
-<td>-</td>
+<td> <a href=http://red.eltex.loc/issues/290407> #290407 </a> </td>
 <td>+</td>
 <td>+</td>
 <td>+</td>
 <td>+</td>
-<td>##</td>
+
 </tr>
 
 <tr>
@@ -87,7 +85,7 @@
 <td>+</td>
 <td>+</td>
 <td>+</td>
-<td>##</td>
+
 </tr>
 
 <tr>
@@ -104,7 +102,7 @@
 <td>+</td>
 <td>+</td>
 <td>-</td>
-<td>##</td>
+
 </tr>
 
 <tr>
@@ -121,7 +119,6 @@
 <td>+</td>
 <td>+</td>
 <td>+</td>
-<td>##</td>
 </tr>
 
 <tr>
@@ -150,7 +147,6 @@
 <td>+</td>
 <td>+</td>
 <td>+</td>
-<td>##</td>
 </tr>
 
 <tr>
@@ -173,8 +169,6 @@
 <td>+</td>
 <td> </td>
 <td> </td>
-<td>##</td>
-
 </tr>
 
 <tr>
@@ -197,7 +191,6 @@
 <td>+</td>
 <td>+</td>
 <td>+</td>
-<td>##</td>
 </tr>
 
 <tr>
@@ -214,7 +207,6 @@
 <td>+</td>
 <td>+</td>
 <td>+</td>
-<td>##</td>
 </tr>
 
 <tr>
@@ -231,7 +223,6 @@
 <td>+</td>
 <td>+</td>
 <td>+</td>
-<td>##</td>
 </tr>
 
 
@@ -249,7 +240,6 @@
 <td>+</td>
 <td>+</td>
 <td>+</td>
-<td>##</td>
 </tr>
 
 
@@ -277,7 +267,6 @@
 <td>+</td>
 <td>+
   прерывается</td>
-<td>##</td>
 </tr>
 
 <tr>
@@ -294,7 +283,7 @@
 <td>+</td>
 <td>+</td>
 <td>+</td>
-<td>##</td>
+
 </tr>
 
 <tr>
@@ -311,7 +300,7 @@
 <td>+</td>
 <td>-</td>
 <td>+</td>
-<td>##</td>
+
 </tr>
 
 <tr>
