@@ -16,9 +16,12 @@
 </thead>
 <tbody>
 
+
 <tr>
 <td><b>Общие функции ECCM</b></td>
 </tr>
+
+<tr> </tr>
 
 <tr>
 <td>Ручное добавление</td>
@@ -359,35 +362,35 @@
 </tr>
 
 <tr>
-<td>Обновление на старшую версию (Update)</td>
+<td>Обновление на старшую версию (UPGRADE)</td>
 <td>+</td>
 <td>+</td>
 <td>+</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
 <td>-</td>
-<td></td>
+<td>+</td>
+<td>+</td>
+<td>-</td>
+<td>+</td>
 </tr>
 
 <tr>
-<td>Обновление на младшую версию (Downgrade)</td>
-<td>no config</td>
-<td>no config</td>
-<td>no config</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<td>Обновление на младшую версию (DOWNGRADE)</td>
+<td>+<sup>*</sup><td>
+<td>+<sup>*</sup><td>
+<td>+<sup>*</sup><td>
+<td>+<sup>*</sup><td>
+<td>+<sup>*</sup><td>
+<td>+<sup>*</sup><td>
+<td>+<sup>*</sup><td>
+<td>+<sup>*</sup><td>
+<td>+<sup>*</sup><td>
+<td>+<sup>*</sup><td>
+<td>+<sup>*</sup><td>
+<td>+<sup>*</sup><td>
 </tr>
 
 <tr>
