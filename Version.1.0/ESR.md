@@ -379,18 +379,18 @@
 
 <tr>
 <td>Обновление на младшую версию (DOWNGRADE)</td>
-<td>+<sup>*</sup><td>
-<td>+<sup>*</sup><td>
-<td>+<sup>*</sup><td>
-<td>+<sup>*</sup><td>
-<td>+<sup>*</sup><td>
-<td>+<sup>*</sup><td>
-<td>+<sup>*</sup><td>
-<td>+<sup>*</sup><td>
-<td>+<sup>*</sup><td>
-<td>+<sup>*</sup><td>
-<td>+<sup>*</sup><td>
-<td>+<sup>*</sup><td>
+<td>+<sup>*</sup></td>
+<td>+<sup>*</sup></td>
+<td>+<sup>*</sup></td>
+<td>+<sup>*</sup></td>
+<td>+<sup>*</sup></td>
+<td>+<sup>*</sup></td>
+<td>+<sup>*</sup></td>
+<td>+<sup>*</sup></td>
+<td>+<sup>*</sup></td>
+<td>+<sup>*</sup></td>
+<td>+<sup>*</sup></td>
+<td>+<sup>*</sup></td>
 </tr>
 
 <tr>
