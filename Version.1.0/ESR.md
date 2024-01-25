@@ -678,8 +678,18 @@
 
 <tr>
 <td> Экспорт инвентарной информации </td>
-<td colspan="9" align="center">+</td>
-<td></td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
 </tr>
 
 
