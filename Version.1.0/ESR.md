@@ -400,8 +400,18 @@
 
 <tr>
 <td>Обновление устройства не содержащим ПО файлом</td>
-<td colspan="9" align="center">+</td>
-<td></td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>-</td>
+<td>+</td>
+<td>+</td>
+<td>?</td>
+<td>?</td>
 </tr>
 
 <tr>
