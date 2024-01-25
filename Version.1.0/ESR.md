@@ -72,6 +72,25 @@
 <td>+</td>
 <td>+</td>
 
+<tr>
+<td>Сравнение конфигураций</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+
+
+
+
+
 </tr>
 
 <tr>
@@ -348,8 +367,130 @@
 <td>+</td>
 <td>-</td>
 <td>+</td>
-
 </tr>
+
+
+<tr>
+<td>Просмотр проблем устройства</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+</tr>
+
+
+<tr>
+<td>Просмотр метрик устройства</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+</tr>
+
+
+
+<tr>
+<td>Отображение интерфейсов устройства</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+</tr>
+
+
+<tr>
+<td>Трапы</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+</tr>
+
+
+<tr>
+<td>Периодические задачи</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+</tr>
+
+
+
+<tr>
+<td>Лицензии устройств</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+
+
+<tr>
+<td>Сервисы</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+
+
 
 <tr>
 <td>SLA</td>
@@ -534,5 +675,17 @@
 <td>Прерывание задачи при ошибке</td>
 <td colspan="9" align="center">+</td>
 <td></td>
+
+<tr>
+<td> Экспорт инвентарной информации </td>
+<td colspan="9" align="center">+</td>
+<td></td>
+</tr>
+
+
+
+
 </tbody>
 </table>
+
+
