@@ -519,19 +519,19 @@
 </tr>
 
 <tr>
-<td>Обновление на младшую версию (DOWNGRADE)</td>
-<td>+<sup>*</sup></td>
-<td>+<sup>*</sup></td>
-<td>+<sup>*</sup></td>
-<td>+<sup>*</sup></td>
-<td>+<sup>*</sup></td>
-<td>+<sup>*</sup></td>
-<td>+<sup>*</sup></td>
-<td>+<sup>*</sup></td>
-<td>+<sup>*</sup></td>
-<td>+<sup>*</sup></td>
-<td>+<sup>*</sup></td>
-<td>+<sup>*</sup></td>
+<td>Обновление на младшую версию (DOWNGRADE)<sup>1</sup></td>
+<td>+</td>
+  <td>+</td>
+  <td>+</td>
+  <td>+</td>
+  <td>+</td>
+  <td>+</td>
+  <td>+</td>
+  <td>+</td>
+  <td>+</td>
+  <td>+</td>
+  <td>+</td>
+  <td>+</td>
 </tr>
 
 <tr>
@@ -692,7 +692,7 @@
 <td>+</td>
 </tr>
 
-
+<sup>1</sup> После DOWNGRADE на устройстве теряется конфигурация. И это нормально. 
 
 
 </tbody>
