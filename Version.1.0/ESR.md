@@ -416,14 +416,34 @@
 
 <tr>
 <td>Журналирование обновления устройства</td>
-<td colspan="9" align="center">+</td>
-<td></td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>-</td>
+<td>+</td>
+<td>+</td>
+<td>?</td>
+<td>?</td>
 </tr>
 
 <tr>
 <td>Предупреждение о невозможности восстановить текущее ПО</td>
-<td colspan="9" align="center">+</td>
-<td></td>
+<td>?</td>
+<td>?</td>
+<td>?</td>
+<td>?</td>
+<td>?</td>
+<td>?</td>
+<td>?</td>
+<td>?</td>
+<td>?</td>
+<td>?/td>
+<td>?</td>
+<td>?</td>
 </tr>
 
 <tr>
@@ -432,26 +452,66 @@
 
 <tr>
 <td>Последовательное обновление ПО</td>
-<td colspan="9" align="center">+</td>
-<td></td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
 </tr>
 
 <tr>
 <td>Параллельное обновление ПО</td>
-<td colspan="9" align="center">+</td>
-<td></td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
 </tr>
 
 <tr>
-<td>Прерывание задачи при ошибке</td>
-<td colspan="9" align="center">+</td>
-<td></td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+
 </tr>
 
 <tr>
 <td>Предупреждение о Downgrade ПО</td>
-<td colspan="9" align="center">+</td>
-<td></td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
 </tr>
 
 <tr>
