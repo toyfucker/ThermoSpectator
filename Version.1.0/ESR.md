@@ -584,18 +584,18 @@
 
 <tr>
 <td>Предупреждение о невозможности восстановить текущее ПО</td>
-<td>?</td>
-<td>?</td>
-<td>?</td>
-<td>?</td>
-<td>?</td>
-<td>?</td>
-<td>?</td>
-<td>?</td>
-<td>?</td>
-<td>?/td>
-<td>?</td>
-<td>?</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td> </td>
+<td>+</td>
+<td> </td>
+<td> </td>
+<td> </td>
 </tr>
 
 <tr>
@@ -604,15 +604,15 @@
 
 <tr>
 <td>Последовательное обновление ПО</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
 <td> </td>
-<td> </td>
-<td> </td>
-<td> </td>
-<td> </td>
-<td> </td>
-<td> </td>
-<td> </td>
-<td> </td>
+<td>+</td>
 <td> </td>
 <td> </td>
 <td> </td>
@@ -636,15 +636,15 @@
 
 <tr>
 <td>Предупреждение о невозможности восстановить текущее ПО</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
 <td> </td>
-<td> </td>
-<td> </td>
-<td> </td>
-<td> </td>
-<td> </td>
-<td> </td>
-<td> </td>
-<td> </td>
+<td>+ </td>
 <td> </td>
 <td> </td>
 <td> </td>
@@ -653,18 +653,18 @@
 
 <tr>
 <td>Предупреждение о Downgrade ПО</td>
-<td> </td>
-<td> </td>
-<td> </td>
-<td> </td>
-<td> </td>
-<td> </td>
-<td> </td>
-<td> </td>
-<td> </td>
-<td> </td>
-<td> </td>
-<td> </td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
 </tr>
 
 <tr>
