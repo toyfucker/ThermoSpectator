@@ -536,7 +536,18 @@
 
 <tr>
 <td>Обновления устройства с шейпером</td>
-<td colspan="9" align="center">-</td>
+  <td>+</td>
+  <td>+</td>
+  <td>+</td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
+  <td> </td>
 </tr>
 
 <tr>
