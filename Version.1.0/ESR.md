@@ -673,21 +673,51 @@
 
 <tr>
 <td>Последовательное применение шаблона</td>
-<td colspan="9" align="center">+</td>
-<td></td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>-</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>-</td>
 </tr>
 
 <tr>
 <td>Параллельное применение шаблона</td>
-<td colspan="9" align="center">+</td>
-<td></td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>-</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>-</td>
 </tr>
 
 <tr>
 <td>Прерывание задачи при ошибке</td>
-<td colspan="9" align="center">+</td>
-<td></td>
-
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>-</td>
+<td>+</td>
+<td>+</td>
+<td>+</td>
+<td>-</td>
+</tr>
 <tr>
 <td> Запуск отложенных задач </td>
 <td>+</td>
@@ -697,11 +727,11 @@
 <td>+</td>
 <td>+</td>
 <td>+</td>
+<td>-</td>
 <td>+</td>
 <td>+</td>
 <td>+</td>
-<td>+</td>
-<td>+</td>
+<td>-</td>
 </tr>
 
 <tr>
