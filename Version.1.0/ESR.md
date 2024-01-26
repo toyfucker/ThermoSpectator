@@ -476,18 +476,18 @@
 
 <tr>
 <td colspan="11" align="center">Сервисы</td>
-<td colspan="11" align="center"> </td>
-<td colspan="11" align="center"> </td>
-<td colspan="11" align="center"> </td>
-<td colspan="11" align="center"> </td>
-<td colspan="11" align="center"> </td>
-<td colspan="11" align="center"> </td>
-<td colspan="11" align="center"> </td>
-<td colspan="11" align="center"> </td>
-<td colspan="11" align="center"> </td>
-<td colspan="11" align="center"> </td>
-<td colspan="11" align="center"> </td>
-<td colspan="11" align="center"> </td>
+<td colspan="11" align="center">+</td>
+<td colspan="11" align="center">+</td>
+<td colspan="11" align="center">+</td>
+<td colspan="11" align="center">+</td>
+<td colspan="11" align="center">+</td>
+<td colspan="11" align="center">+</td>
+<td colspan="11" align="center">+</td>
+<td colspan="11" align="center">-</td>
+<td colspan="11" align="center">+</td>
+<td colspan="11" align="center">+</td>
+<td colspan="11" align="center">-</td>
+<td colspan="11" align="center">-</td>
 </tr>
 
 
