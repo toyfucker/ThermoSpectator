@@ -52,7 +52,7 @@
 <td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
-<td colspan="11" align="center"> <a href=http://red.eltex.loc/issues/291274> #291274</a> </td>
+<td colspan="11" align="center"> <a href=http://red.eltex.loc/issues/289950> #289950</a> </td>
 
 
 
@@ -66,7 +66,7 @@
 <td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
-<td colspan="11" align="center"> <a href=http://red.eltex.loc/issues/290407> #290407 </a> </td>
+<td colspan="11" align="center"> <a href=http://red.eltex.loc/issues/291274> #291274 </a> </td>
 <td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
@@ -181,7 +181,7 @@
 <td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
-<td colspan="11" align="center">-</td>
+<td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
 <td colspan="11" align="center">-</td>
 <td colspan="11" align="center">+</td>
