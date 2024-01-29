@@ -222,21 +222,7 @@
 <td colspan="11" align="center">+</td>
 </tr>
 
-<tr>
-<td colspan="11" align="center">Индивидуальные настройки адаптера SFTP</td>
-<td colspan="11" align="center"> </td>
-<td colspan="11" align="center"> </td>
-<td colspan="11" align="center"> </td>
-<td colspan="11" align="center"> </td>
-<td colspan="11" align="center"> </td>
-<td colspan="11" align="center"> </td>
-<td colspan="11" align="center"> </td>
-<td colspan="11" align="center"> </td>
-<td colspan="11" align="center"> </td>
-<td colspan="11" align="center"> </td>
-<td colspan="11" align="center"> </td>
-<td colspan="11" align="center"> </td>
-</tr>
+
 
 <tr>
 <td colspan="11" align="center">Определение статусов устройств</td>
