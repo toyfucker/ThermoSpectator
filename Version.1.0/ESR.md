@@ -450,16 +450,16 @@
 
 <tr>
 <td colspan="11" align="center">SLA</td>
-<td colspan="11" align="center"> не синхронизируются в версии ПО: 1.12.0.363815 </td>
-<td colspan="11" align="center"> </td>
-<td colspan="11" align="center"> </td>
 <td colspan="11" align="center">+</td>
-<td colspan="11" align="center"> </td>
-<td colspan="11" align="center"> </td>
-<td colspan="11" align="center"> </td>
-<td colspan="11" align="center"> </td>
 <td colspan="11" align="center">+</td>
-<td colspan="11" align="center"> </td>
+<td colspan="11" align="center">+</td>
+<td colspan="11" align="center">+</td>
+<td colspan="11" align="center">+</td>
+<td colspan="11" align="center">+</td>
+<td colspan="11" align="center">+</td>
+<td colspan="11" align="center">+</td>
+<td colspan="11" align="center">+</td>
+<td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
 <td colspan="11" align="center"> </td>
 </tr>
