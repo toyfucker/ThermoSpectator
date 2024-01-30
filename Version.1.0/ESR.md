@@ -346,12 +346,12 @@
 <td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
 <td colspan="11" align="center"><a href=http://red.eltex.loc/issues/291800> #291800 </a> </td>
-<td colspan="11" align="center">-</td>
-<td colspan="11" align="center">-</td>
-<td colspan="11" align="center">-</td>
-<td colspan="11" align="center">-</td>
+<td colspan="11" align="center"><a href=http://red.eltex.loc/issues/291800> #291800 </a> </td>
+<td colspan="11" align="center"><a href=http://red.eltex.loc/issues/291800> #291800 </a> </td>
+<td colspan="11" align="center"><a href=http://red.eltex.loc/issues/291800> #291800 </a> </td>
+<td colspan="11" align="center"><a href=http://red.eltex.loc/issues/291800> #291800 </a> </td>
 <td colspan="11" align="center">+</td>
-<td colspan="11" align="center">-</td>
+<td colspan="11" align="center"><a href=http://red.eltex.loc/issues/291800> #291800 </a> </td>
 <td colspan="11" align="center">+</td>
 </tr>
 
