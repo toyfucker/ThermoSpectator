@@ -540,7 +540,7 @@
 <td colspan="11" align="center">-</td>
 <td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
-<td colspan="11" align="center">?</td>
+<td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
 </tr>
 
@@ -553,10 +553,10 @@
 <td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
-<td colspan="11" align="center">?</td>
+<td colspan="11" align="center"> </td>
 <td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
-<td colspan="11" align="center">?</td>
+<td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
 </tr>
 
@@ -592,7 +592,7 @@
 <td colspan="11" align="center"> </td>
 <td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
-<td colspan="11" align="center"> </td>
+<td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
 </tr>
 
@@ -608,7 +608,7 @@
 <td colspan="11" align="center"> </td>
 <td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
-<td colspan="11" align="center"> </td>
+<td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
 </tr>
 
@@ -624,7 +624,7 @@
 <td colspan="11" align="center"> </td>
 <td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
-<td colspan="11" align="center"> </td>
+<td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
 
 </tr>
