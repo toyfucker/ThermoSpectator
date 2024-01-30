@@ -410,18 +410,7 @@
 
 <tr>
 <td colspan="11" align="center">Трапы</td>
-<td colspan="11" align="center"> </td>
-<td colspan="11" align="center"> </td>
-<td colspan="11" align="center"> </td>
-<td colspan="11" align="center"> </td>
-<td colspan="11" align="center"> </td>
-<td colspan="11" align="center"> </td>
-<td colspan="11" align="center"> </td>
-<td colspan="11" align="center"> </td>
-<td colspan="11" align="center"> </td>
-<td colspan="11" align="center"> </td>
-<td colspan="11" align="center"> </td>
-<td colspan="11" align="center"> </td>
+<td colspan="11" align="center"> после обновления на версию ПО: 1.12.0.363815 (утром 30-Января-2024) поломались трапы</td>
 </tr>
 
 
@@ -454,7 +443,7 @@
 <td colspan="11" align="center">-</td>
 <td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
-<td colspan="11" align="center">-</td>
+<td colspan="11" align="center">+</td>
 <td colspan="11" align="center">-</td>
 </tr>
 
