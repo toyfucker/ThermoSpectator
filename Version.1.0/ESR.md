@@ -156,7 +156,7 @@
 <td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
-<td colspan="11" align="center">-</td>
+<td colspan="11" align="center">+</td>
 </tr>
 
 <tr>
@@ -183,28 +183,13 @@
 <td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
-<td colspan="11" align="center">-</td>
+<td colspan="11" align="center"> <a href=http://red.eltex.loc/issues/291274> #291274 </a> </td>
 <td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
 </tr>
 
-<tr>
-<td colspan="11" align="center">Нестандартное SNMP Community RO</td>
-<td colspan="11" align="center"> </td>
-<td colspan="11" align="center"> </td>
-<td colspan="11" align="center"> </td>
-<td colspan="11" align="center"> </td>
-<td colspan="11" align="center"> </td>
-<td colspan="11" align="center"> </td>
-<td colspan="11" align="center"> </td>
-<td colspan="11" align="center"> </td>
-<td colspan="11" align="center"> </td>
-<td colspan="11" align="center"> </td>
-<td colspan="11" align="center"> </td>
-<td colspan="11" align="center"> </td>
-</tr>
 
 <tr>
 <td colspan="11" align="center">Индивидуальные настройки адаптера SSH</td>
@@ -473,7 +458,7 @@
 <td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
-<td colspan="11" align="center"> </td>
+<td colspan="11" align="center">+</td>
 </tr>
 
 <tr>
@@ -489,10 +474,10 @@
 <td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
-<td colspan="11" align="center">-</td>
+<td colspan="11" align="center"> <a href=http://red.eltex.loc/issues/291274> #291274 </a> </td>
 <td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
-<td colspan="11" align="center">-</td>
+<td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
 </tr>
 
@@ -521,10 +506,10 @@
   <td colspan="11" align="center">+</td>
   <td colspan="11" align="center">+</td>
   <td colspan="11" align="center">+</td>
-  <td colspan="11" align="center"> </td>
+  <td colspan="11" align="center"> <a href=http://red.eltex.loc/issues/291274> #291274 </a>  </td>
   <td colspan="11" align="center">+</td>
   <td colspan="11" align="center">+</td>
-  <td colspan="11" align="center"> </td>
+  <td colspan="11" align="center">+</td>
   <td colspan="11" align="center">+</td>
 </tr>
 
@@ -537,7 +522,7 @@
 <td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
-<td colspan="11" align="center">-</td>
+<td colspan="11" align="center"> <a href=http://red.eltex.loc/issues/291274> #291274 </a> </td>
 <td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
@@ -553,7 +538,7 @@
 <td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
-<td colspan="11" align="center"> </td>
+<td colspan="11" align="center"> <a href=http://red.eltex.loc/issues/291274> #291274 </a> </td>
 <td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
@@ -569,7 +554,7 @@
 <td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
-<td colspan="11" align="center"> </td>
+<td colspan="11" align="center"> <a href=http://red.eltex.loc/issues/291274> #291274 </a> </td>
 <td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
@@ -589,7 +574,7 @@
 <td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
-<td colspan="11" align="center"> </td>
+<td colspan="11" align="center"> <a href=http://red.eltex.loc/issues/291274> #291274 </a> </td>
 <td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
@@ -605,7 +590,7 @@
 <td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
-<td colspan="11" align="center"> </td>
+<td colspan="11" align="center"> <a href=http://red.eltex.loc/issues/291274> #291274 </a> </td>
 <td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
@@ -621,7 +606,7 @@
 <td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
-<td colspan="11" align="center"> </td>
+<td colspan="11" align="center"> <a href=http://red.eltex.loc/issues/291274> #291274 </a> </td>
 <td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
@@ -658,7 +643,7 @@
 <td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
-<td colspan="11" align="center">-</td>
+<td colspan="11" align="center"> <a href=http://red.eltex.loc/issues/291274> #291274 </a> </td>
 <td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
@@ -674,7 +659,7 @@
 <td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
-<td colspan="11" align="center">-</td>
+<td colspan="11" align="center"> <a href=http://red.eltex.loc/issues/291274> #291274 </a> </td>
 <td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
@@ -690,7 +675,7 @@
 <td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
-<td colspan="11" align="center">-</td>
+<td colspan="11" align="center"> <a href=http://red.eltex.loc/issues/291274> #291274 </a> </td>
 <td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
@@ -705,7 +690,7 @@
 <td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
-<td colspan="11" align="center">-</td>
+<td colspan="11" align="center"> <a href=http://red.eltex.loc/issues/291274> #291274 </a> </td>
 <td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
