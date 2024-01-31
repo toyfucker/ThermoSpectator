@@ -12,7 +12,7 @@
 <td colspan="11" align="center">ESR3100</td>
 <td colspan="11" align="center">ESR15</td>
 <td colspan="11" align="center">ESR3200</td>
-<td colspan="11" align="center">ESR31</td>
+<td colspan="11" align="center">ESR31 <sup>3</sup> </td>
 </thead>
 <tbody>
 
@@ -52,7 +52,7 @@
 <td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
-<td colspan="11" align="center"> <a href=http://red.eltex.loc/issues/289950 a> #289950 </a> </td>
+<td colspan="11" align="center"> <a href=http://red.eltex.loc/issues/289950> #289950</a> </td>
 
 
 
@@ -66,7 +66,7 @@
 <td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
-<td colspan="11" align="center"> <a href=http://red.eltex.loc/issues/290407> #290407 </a> </td>
+<td colspan="11" align="center"> <a href=http://red.eltex.loc/issues/291274> #291274 </a> </td>
 <td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
@@ -119,7 +119,7 @@
 <td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
-<td colspan="11" align="center">-</td>
+<td colspan="11" align="center"> <a href=http://red.eltex.loc/issues/291274> #291274 </a> </td>
 <td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
@@ -156,7 +156,7 @@
 <td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
-<td colspan="11" align="center">-</td>
+<td colspan="11" align="center">+</td>
 </tr>
 
 <tr>
@@ -181,30 +181,15 @@
 <td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
-<td colspan="11" align="center">-</td>
 <td colspan="11" align="center">+</td>
-<td colspan="11" align="center">-</td>
+<td colspan="11" align="center">+</td>
+<td colspan="11" align="center"> <a href=http://red.eltex.loc/issues/291274> #291274 </a> </td>
 <td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
 </tr>
 
-<tr>
-<td colspan="11" align="center">Нестандартное SNMP Community RO</td>
-<td colspan="11" align="center"> </td>
-<td colspan="11" align="center"> </td>
-<td colspan="11" align="center"> </td>
-<td colspan="11" align="center"> </td>
-<td colspan="11" align="center"> </td>
-<td colspan="11" align="center"> </td>
-<td colspan="11" align="center"> </td>
-<td colspan="11" align="center"> </td>
-<td colspan="11" align="center"> </td>
-<td colspan="11" align="center"> </td>
-<td colspan="11" align="center"> </td>
-<td colspan="11" align="center"> </td>
-</tr>
 
 <tr>
 <td colspan="11" align="center">Индивидуальные настройки адаптера SSH</td>
@@ -222,21 +207,7 @@
 <td colspan="11" align="center">+</td>
 </tr>
 
-<tr>
-<td colspan="11" align="center">Индивидуальные настройки адаптера SFTP</td>
-<td colspan="11" align="center"> </td>
-<td colspan="11" align="center"> </td>
-<td colspan="11" align="center"> </td>
-<td colspan="11" align="center"> </td>
-<td colspan="11" align="center"> </td>
-<td colspan="11" align="center"> </td>
-<td colspan="11" align="center"> </td>
-<td colspan="11" align="center"> </td>
-<td colspan="11" align="center"> </td>
-<td colspan="11" align="center"> </td>
-<td colspan="11" align="center"> </td>
-<td colspan="11" align="center"> </td>
-</tr>
+
 
 <tr>
 <td colspan="11" align="center">Определение статусов устройств</td>
@@ -359,13 +330,13 @@
 <td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
-<td colspan="11" align="center">-</td>
-<td colspan="11" align="center">-</td>
-<td colspan="11" align="center">-</td>
-<td colspan="11" align="center">-</td>
-<td colspan="11" align="center">-</td>
 <td colspan="11" align="center">+</td>
-<td colspan="11" align="center">-</td>
+<td colspan="11" align="center">+</td>
+<td colspan="11" align="center">+</td>
+<td colspan="11" align="center">+</td>
+<td colspan="11" align="center">+</td>
+<td colspan="11" align="center">+</td>
+<td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
 </tr>
 
@@ -456,24 +427,6 @@
 </tr>
 
 
-
-<tr>
-<td colspan="11" align="center">Лицензии устройств (Устройство - Управление - Лицензии)</td>
-<td colspan="11" align="center">-</td>
-<td colspan="11" align="center">-</td>
-<td colspan="11" align="center">-</td>
-<td colspan="11" align="center">-</td>
-<td colspan="11" align="center">-</td>
-<td colspan="11" align="center">-</td>
-<td colspan="11" align="center">-</td>
-<td colspan="11" align="center">-</td>
-<td colspan="11" align="center">-</td>
-<td colspan="11" align="center">-</td>
-<td colspan="11" align="center">-</td>
-<td colspan="11" align="center">-</td>
-</tr>
-
-
 <tr>
 <td colspan="11" align="center">Сервисы</td>
 <td colspan="11" align="center">+</td>
@@ -486,7 +439,7 @@
 <td colspan="11" align="center">-</td>
 <td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
-<td colspan="11" align="center">-</td>
+<td colspan="11" align="center">+</td>
 <td colspan="11" align="center">-</td>
 </tr>
 
@@ -494,18 +447,18 @@
 
 <tr>
 <td colspan="11" align="center">SLA</td>
-<td colspan="11" align="center"> </td>
-<td colspan="11" align="center"> </td>
-<td colspan="11" align="center"> </td>
-<td colspan="11" align="center"> </td>
-<td colspan="11" align="center"> </td>
-<td colspan="11" align="center"> </td>
-<td colspan="11" align="center"> </td>
-<td colspan="11" align="center"> </td>
-<td colspan="11" align="center"> </td>
-<td colspan="11" align="center"> </td>
-<td colspan="11" align="center"> </td>
-<td colspan="11" align="center"> </td>
+<td colspan="11" align="center">+</td>
+<td colspan="11" align="center">+</td>
+<td colspan="11" align="center">+</td>
+<td colspan="11" align="center">+</td>
+<td colspan="11" align="center">+</td>
+<td colspan="11" align="center">+</td>
+<td colspan="11" align="center">+</td>
+<td colspan="11" align="center">+</td>
+<td colspan="11" align="center">+</td>
+<td colspan="11" align="center">+</td>
+<td colspan="11" align="center">+</td>
+<td colspan="11" align="center">+</td>
 </tr>
 
 <tr>
@@ -521,10 +474,10 @@
 <td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
-<td colspan="11" align="center">-</td>
+<td colspan="11" align="center"> <a href=http://red.eltex.loc/issues/291274> #291274 </a> </td>
 <td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
-<td colspan="11" align="center">-</td>
+<td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
 </tr>
 
@@ -553,10 +506,10 @@
   <td colspan="11" align="center">+</td>
   <td colspan="11" align="center">+</td>
   <td colspan="11" align="center">+</td>
-  <td colspan="11" align="center"> </td>
+  <td colspan="11" align="center"> <a href=http://red.eltex.loc/issues/291274> #291274 </a>  </td>
   <td colspan="11" align="center">+</td>
   <td colspan="11" align="center">+</td>
-  <td colspan="11" align="center"> </td>
+  <td colspan="11" align="center">+</td>
   <td colspan="11" align="center">+</td>
 </tr>
 
@@ -569,10 +522,10 @@
 <td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
-<td colspan="11" align="center">-</td>
+<td colspan="11" align="center"> <a href=http://red.eltex.loc/issues/291274> #291274 </a> </td>
 <td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
-<td colspan="11" align="center">?</td>
+<td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
 </tr>
 
@@ -585,10 +538,10 @@
 <td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
-<td colspan="11" align="center">?</td>
+<td colspan="11" align="center"> <a href=http://red.eltex.loc/issues/291274> #291274 </a> </td>
 <td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
-<td colspan="11" align="center">?</td>
+<td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
 </tr>
 
@@ -601,10 +554,10 @@
 <td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
-<td colspan="11" align="center"> </td>
+<td colspan="11" align="center"> <a href=http://red.eltex.loc/issues/291274> #291274 </a> </td>
 <td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
-<td colspan="11" align="center"> </td>
+<td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
 </tr>
 
@@ -621,10 +574,10 @@
 <td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
-<td colspan="11" align="center"> </td>
+<td colspan="11" align="center"> <a href=http://red.eltex.loc/issues/291274> #291274 </a> </td>
 <td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
-<td colspan="11" align="center"> </td>
+<td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
 </tr>
 
@@ -637,10 +590,10 @@
 <td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
-<td colspan="11" align="center"> </td>
+<td colspan="11" align="center"> <a href=http://red.eltex.loc/issues/291274> #291274 </a> </td>
 <td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
-<td colspan="11" align="center"> </td>
+<td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
 </tr>
 
@@ -653,10 +606,10 @@
 <td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
-<td colspan="11" align="center"> </td>
+<td colspan="11" align="center"> <a href=http://red.eltex.loc/issues/291274> #291274 </a> </td>
 <td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
-<td colspan="11" align="center"> </td>
+<td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
 
 </tr>
@@ -690,7 +643,7 @@
 <td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
-<td colspan="11" align="center">-</td>
+<td colspan="11" align="center"> <a href=http://red.eltex.loc/issues/291274> #291274 </a> </td>
 <td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
@@ -706,7 +659,7 @@
 <td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
-<td colspan="11" align="center">-</td>
+<td colspan="11" align="center"> <a href=http://red.eltex.loc/issues/291274> #291274 </a> </td>
 <td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
@@ -722,7 +675,7 @@
 <td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
-<td colspan="11" align="center">-</td>
+<td colspan="11" align="center"> <a href=http://red.eltex.loc/issues/291274> #291274 </a> </td>
 <td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
@@ -737,7 +690,7 @@
 <td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
-<td colspan="11" align="center">-</td>
+<td colspan="11" align="center"> <a href=http://red.eltex.loc/issues/291274> #291274 </a> </td>
 <td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
 <td colspan="11" align="center">+</td>
@@ -763,6 +716,7 @@
 </tbody>
 </table>
 
-<sup>1</sup> После DOWNGRADE за пределы релизаЮ на устройстве теряется конфигурация. И это нормально. <br />
-<sup>2</sup> Положительный результат (то есть плюс) означает, что не происходит обновления устройства файлом, не содержащим ПО (или содержащим повреждённое ПО). И это нормально.
+<sup>1</sup> После DOWNGRADE за пределы релиза, на устройстве теряется конфигурация. И это нормально. <br />
+<sup>2</sup> Положительный результат (то есть плюс) означает, что не происходит обновления устройства файлом, не содержащим ПО (или содержащим повреждённое ПО). И это нормально. <br />
+<sup>3</sup> ESR-31 поломался во время тестов с UPGRADE/DOWNGRADE, поэтому все, относящиеся к нему вопросы, переехали в r1.12.1
 
