@@ -35,30 +35,38 @@ int hours2;
 int minutes2;
 
 
-//const char* ssid = "KOCTR KOMOB";  
+const char* ssid = "MikroTik";
+const char* password =  "independence";  
 // Set your Static IP address and set your Gateway IP address
-const char* ssid = "MikroTik"; const char* password =  "*********";
+//const char* ssid = "MikroTik"; const char* password =  "*********";
 WebServer server(80);
-IPAddress local_IP(192, 168, 1, 48);
-IPAddress gateway(192, 168, 1, 1);
-IPAddress subnet(255, 255, 255, 0);
+//IPAddress local_IP(192, 168, 2, 48);
+//IPAddress gateway(192, 168, 2, 1);
+//IPAddress subnet(255, 255, 255, 0);
 
 long previousMillis1 = 0;
 long interval1 = 300000;
 
 //PART I 
-DeviceAddress sensor1 = {0x28, 0x66, 0xF4, 0x57, 0xE, 0x0, 0x0, 0x7C};//01.07.2023 сенсор в котельной COLD
-DeviceAddress sensor2 = {0x28, 0xDF, 0x4C, 0x58, 0xE, 0x0, 0x0, 0x6}; //01.07.2023 сенсор в котельной HOT 
-DeviceAddress sensor3 = {0x28, 0x84, 0xC8, 0x58, 0xE, 0x0, 0x0, 0x4}; //09.12.2023 сенсор в корпусе Linksys
-DeviceAddress sensor4 = {0x28, 0x48, 0xD1, 0x2C, 0xE, 0x0, 0x0, 0xCF}; //01.07.2023 сенсор в котельной OUTDOOR
+//DeviceAddress sensor1 = {0x28, 0x66, 0xF4, 0x57, 0xE, 0x0, 0x0, 0x7C};//01.07.2023 сенсор в котельной COLD
+//DeviceAddress sensor2 = {0x28, 0xDF, 0x4C, 0x58, 0xE, 0x0, 0x0, 0x6}; //01.07.2023 сенсор в котельной HOT 
+//DeviceAddress sensor3 = {0x28, 0x84, 0xC8, 0x58, 0xE, 0x0, 0x0, 0x4}; //09.12.2023 сенсор в корпусе Linksys
+//DeviceAddress sensor4 = {0x28, 0x48, 0xD1, 0x2C, 0xE, 0x0, 0x0, 0xCF}; //01.07.2023 сенсор в котельной OUTDOOR
 //PART II
 //DeviceAddress sensor1 = {0x28, 0xD1, 0x89, 0x58, 0xE, 0x0, 0x0, 0xE5}; //01.07.2023 USB-TypeC сенсор на плате
+
+//Сенсор c разъёмом
+DeviceAddress sensor1 = {0x28, 0x3C, 0xC9, 0xFB, 0xC, 0x0, 0x0, 0x1};
+DeviceAddress sensor2 = {0x28, 0x3C, 0xC9, 0xFB, 0xC, 0x0, 0x0, 0x1};
+DeviceAddress sensor3 = {0x28, 0x3C, 0xC9, 0xFB, 0xC, 0x0, 0x0, 0x1};
+DeviceAddress sensor4 = {0x28, 0x3C, 0xC9, 0xFB, 0xC, 0x0, 0x0, 0x1};
 
 void setup(void) {
   Serial.begin(9600);
   sensors.begin();
-  pinMode(LED_BUILTIN, OUTPUT);
-  digitalWrite(LED_BUILTIN, HIGH);delay(100);digitalWrite(LED_BUILTIN, LOW);delay(100);digitalWrite(LED_BUILTIN, HIGH);delay(100);digitalWrite(LED_BUILTIN, LOW);delay(100);digitalWrite(LED_BUILTIN, HIGH);delay(100);digitalWrite(LED_BUILTIN, LOW);delay(100);digitalWrite(LED_BUILTIN, HIGH);delay(100);digitalWrite(LED_BUILTIN, LOW);delay(100);digitalWrite(LED_BUILTIN, HIGH);
+  //pinMode(17, OUTPUT);
+  pinMode(17, OUTPUT);
+  digitalWrite(17, HIGH);delay(100);digitalWrite(17, LOW);delay(100);digitalWrite(17, HIGH);delay(100);digitalWrite(17, LOW);delay(100);digitalWrite(17, HIGH);delay(100);digitalWrite(17, LOW);delay(100);digitalWrite(17, HIGH);delay(100);digitalWrite(17, LOW);delay(100);digitalWrite(17, HIGH);
   Serial.print("Connecting to SSID: ");Serial.print(ssid);
   //WiFi.begin(ssid,password);
   //WiFi.config(local_IP, gateway, subnet);
@@ -69,8 +77,8 @@ if (WiFi.status() != WL_CONNECTED) {delay(1000);WiFi.begin(ssid,password);Serial
 
   delay(3000);
   //поменять while на цикл for, по истечению которого, если не удалось подключиться к WiFi, то выполнить ESP.Reset
-  //while (WiFi.status() != WL_CONNECTED) { digitalWrite(LED_BUILTIN, LOW);WiFi.begin(ssid,password); Serial.print(".");delay(3000);digitalWrite(LED_BUILTIN, HIGH);}
-  digitalWrite(LED_BUILTIN, LOW);
+  //while (WiFi.status() != WL_CONNECTED) { digitalWrite(17, LOW);WiFi.begin(ssid,password); Serial.print(".");delay(3000);digitalWrite(17, HIGH);}
+  digitalWrite(17, LOW);
   Serial.print(" WiFi connected, IP=");
   Serial.print("IP address: "); Serial.println(WiFi.localIP());Serial.print("MAC=");Serial.println(WiFi.macAddress());Serial.print("Rx Level=");Serial.print(WiFi.RSSI());Serial.println("dBm"); Rx = (WiFi.RSSI());
 
@@ -94,6 +102,7 @@ if (WiFi.status() != WL_CONNECTED) {delay(1000);WiFi.begin(ssid,password);Serial
 
 void loop(void) {
   server.handleClient(); 
+  blink();
  // if (WiFi.status() != WL_CONNECTED) {WiFi.begin(ssid,password);} 
   unsigned long currentMillis1 = millis(); 
   if(currentMillis1 - previousMillis1 > interval1) 
@@ -118,11 +127,22 @@ void loop(void) {
     }
 }
 
+void blink() {
+digitalWrite(17, HIGH); delay(300);
+digitalWrite(17, LOW); delay(300);
+digitalWrite(17, HIGH); delay(300);
+digitalWrite(17, LOW); delay(300);
+digitalWrite(17, HIGH); delay(300);
+digitalWrite(17, LOW); 
+
+
+}
+
 
 //Основной вызов при GET 
 void handle_OnConnect() {
 sensors.requestTemperatures(); 
-digitalWrite(LED_BUILTIN, HIGH);
+digitalWrite(17, HIGH);
 
 //Опрашиваем сенсоры и WiFi 
 temp1=sensors.getTempC(sensor1)+15;
@@ -139,7 +159,7 @@ formattedDate2 = str_hours2+':'+str_minutes2; Serial.println(formattedDate2);
   server.send(200, "text/html", SendHTML(temp1,temp2));
 
 //Трижды мигаем светодиодом, показывая, что мы дошли до 
-digitalWrite(LED_BUILTIN, LOW); delay(300);digitalWrite(LED_BUILTIN, HIGH);delay(300);digitalWrite(LED_BUILTIN, LOW);delay(300);digitalWrite(LED_BUILTIN, HIGH);delay(300);digitalWrite(LED_BUILTIN, LOW);digitalWrite(LED_BUILTIN, HIGH);delay(300);digitalWrite(LED_BUILTIN, LOW);
+digitalWrite(17, LOW); delay(100);digitalWrite(17, HIGH);delay(100);digitalWrite(17, LOW);delay(100);digitalWrite(17, HIGH);delay(100);digitalWrite(17, LOW);digitalWrite(17, HIGH);delay(100);digitalWrite(17, LOW);digitalWrite(17, HIGH);delay(100);digitalWrite(17, LOW);digitalWrite(17, HIGH);delay(100);digitalWrite(17, LOW);digitalWrite(17, HIGH);delay(100);digitalWrite(17, LOW);digitalWrite(17, HIGH);delay(100);digitalWrite(17, LOW);
  }
 void handle_NotFound() {server.send(404, "text/plain", "Not found");}
 
@@ -148,7 +168,8 @@ String SendHTML(float temp1,float temp2){
 String ptr = "<!DOCTYPE html> <html>\n";
 ptr +="<head>                                                                                            \n";
 
-ptr +=" <title>Thermex</title>                                                                                                                                                                       \n";
+//ptr +=" <title>Thermex</title>                                                                                                                                                                       \n";
+ptr +=" <title>TELEMETRY</title>                                                                                                                                                                       \n";
  ptr +=" <style>html { font-family: Helvetica; display: inline-block; margin: 0px auto; text-align: center;}                                                                                          \n";
  ptr +=" body{margin-top: 50px;} h1 {color: #444444;margin: 50px auto 30px;}                                                                                                                          \n";
  ptr +=" p {font-size: 24px;color: #444444;margin-bottom: 10px;}                                                                                                                                      \n";
@@ -178,7 +199,7 @@ ptr +="</head>                                                                  
 
 ptr +="<body>                                                                                                                                                                                        \n";
 
-ptr +=" <h1>THERMEX</h1>                                                                                                                                                                             \n";
+ptr +=" <h1>TELEMETRY</h1>                                                                                                                                                                             \n";
 ptr +="<p>HOT="; ptr +=temp1;ptr +="    COLD=";ptr +=temp2; ptr +="</p>";
 ptr +="<p>INDOOR="; ptr +=temp3; ptr +="   OUTDOOR="; ptr +=temp4; ptr +="</p>";
 ptr +="<p>current time: "; ptr +=formattedDate2; ptr +="</p>";
@@ -189,7 +210,7 @@ ptr +="<div id=\"container\"></div>                                             
 ptr +="  <script>                                                                                                                                                                                    \n";
 ptr +="  anychart.onDocumentReady(function () {                                                                                                                                                      \n";
 
-ptr +="  anychart.theme('darkGlamour');                                                                                                                                                              \n";
+ptr +="  anychart.theme('Coffee');                                                                                                                                                              \n";
 ptr +="      // create data set on our data                                                                                                                                                          \n";
 ptr +="      var dataSet = anychart.data.set(getData());                                                                                                                                             \n";
 ptr +="                                                                                                                                                                                              \n";
