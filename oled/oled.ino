@@ -152,7 +152,7 @@ void loop(void) {
     {
     previousMillis1 = currentMillis1; 
     for (int i=1;i<288;i++) {temp11[i]=temp11[i+1];temp22[i]=temp22[i+1];temp33[i]=temp33[i+1];temp44[i]=temp44[i+1];formattedDate[i]=formattedDate[i+1];}
-    sensors.requestTemperatures();temp11[288]=sensors.getTempC(sensor1)+15;temp22[288]=sensors.getTempC(sensor2)+12;temp33[288]=sensors.getTempC(sensor3);temp44[288]=sensors.getTempC(sensor4);  
+    sensors.requestTemperatures();temp11[288]=sensors.getTempC(sensor1);temp22[288]=sensors.getTempC(sensor2);temp33[288]=sensors.getTempC(sensor3);temp44[288]=sensors.getTempC(sensor4);  
     if (WiFi.status() != WL_CONNECTED) {delay(10000);WiFi.begin(ssid,password);Serial.println(WiFi.localIP());Serial.println(WiFi.RSSI());delay(10000);}
     timeClient.update();
     hours = timeClient.getHours();Serial.println(hours); minutes = timeClient.getMinutes();Serial.println(minutes);
@@ -162,14 +162,14 @@ void loop(void) {
     display.clearDisplay();
     display.setTextSize(2);
     display.setTextColor(WHITE);
-    display.setCursor(3, 3);
-    display.print(temp11[288]); 
-    display.setCursor(3,20);
-    display.print(temp22[288]);
-    display.setCursor(65,3);
-    display.print(temp33[288]);
-    display.setCursor(65,20);
-    display.print(temp44[288]);
+    display.setCursor(10, 5);
+    display.print(int(temp11[288])); 
+    display.setCursor(10, 25);
+    display.print(int(temp22[288]));
+    display.setCursor(55,5);
+    display.print(int(temp33[288]));
+    display.setCursor(55,25);
+    display.print(int(temp44[288]));
     display.display();
     }
 }
@@ -198,19 +198,17 @@ formattedDate2 = str_hours2+':'+str_minutes2; Serial.println(formattedDate2);
 display.clearDisplay();
 display.setTextSize(2);
 display.setTextColor(WHITE);
-display.setCursor(3, 3);
-display.print(temp1); 
-display.setCursor(3,20);
-display.print(temp2);
-display.setCursor(65,3);
-display.print(temp3);
-display.setCursor(65,20);
-display.print(temp4);
-display.display();
-  
+display.setCursor(10, 5);
+display.print(int(temp1)); 
+display.setCursor(10, 25);
+display.print(int(temp2));
+display.setCursor(55,5);
+display.print(int(temp3));
+display.setCursor(55,25);
+display.print(-1*int(temp4));
+
+
   server.send(200, "text/html", SendHTML(temp1,temp2));
-
-
 
  }
 void handle_NotFound() {server.send(404, "text/plain", "Not found");}
