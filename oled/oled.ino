@@ -105,15 +105,15 @@ if (WiFi.status() != WL_CONNECTED) {delay(1000);WiFi.begin(ssid,password);Serial
   Serial.print(" WiFi connected, IP=");
   Serial.print("IP address: "); Serial.println(WiFi.localIP());Serial.print("MAC=");Serial.println(WiFi.macAddress());Serial.print("Rx Level=");Serial.print(WiFi.RSSI());Serial.println("dBm"); Rx = (WiFi.RSSI());
   //print info to OLED
-  display.setCursor(0, 0);
+  display.setCursor(2, 2);
   display.print("IP:");
   display.print(WiFi.localIP());
   
-  display.setCursor(0, 10);
-  display.print("MAC:");
+  display.setCursor(2, 12);
+  //display.print("MAC:");
   display.print((WiFi.macAddress()));
   
-  display.setCursor(0, 20);
+  display.setCursor(2, 22);
   display.print(WiFi.RSSI());display.print("dBm");
   
   server.begin(); 
@@ -126,7 +126,7 @@ if (WiFi.status() != WL_CONNECTED) {delay(1000);WiFi.begin(ssid,password);Serial
   hours = timeClient.getHours();Serial.println(hours);
   minutes = timeClient.getMinutes();Serial.println(minutes);
   
-  display.setCursor(0, 30);
+  display.setCursor(2, 32);
   display.print(hours);display.print(":");display.print(minutes);
   display.display();
 
@@ -138,7 +138,7 @@ if (WiFi.status() != WL_CONNECTED) {delay(1000);WiFi.begin(ssid,password);Serial
   Serial.print("formattedDate[288]=");Serial.println(formattedDate[288]);
   
   delay(10000);
-  display.clearDisplay();
+  //display.clearDisplay();
   }
 
 
