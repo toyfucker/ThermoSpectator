@@ -89,12 +89,7 @@ void setup(void) {
     Serial.println(F("SSD1306 allocation failed"));
     for (;;); // Don't proceed, loop forever
   }
-  // Clear the buffer.
-  display.clearDisplay();
-  // Display Text
-  display.setTextSize(1);
-  display.setTextColor(WHITE);
- ;
+   
   
 for (int ii = 1; ii<10; ii++) {
 if (WiFi.status() != WL_CONNECTED) {delay(1000);WiFi.begin(ssid,password);Serial.println(WiFi.localIP());Serial.println(WiFi.RSSI());delay(1000);}
@@ -105,16 +100,7 @@ if (WiFi.status() != WL_CONNECTED) {delay(1000);WiFi.begin(ssid,password);Serial
   Serial.print(" WiFi connected, IP=");
   Serial.print("IP address: "); Serial.println(WiFi.localIP());Serial.print("MAC=");Serial.println(WiFi.macAddress());Serial.print("Rx Level=");Serial.print(WiFi.RSSI());Serial.println("dBm"); Rx = (WiFi.RSSI());
   //print info to OLED
-  display.setCursor(2, 2);
-  display.print("IP:");
-  display.print(WiFi.localIP());
   
-  display.setCursor(2, 12);
-  //display.print("MAC:");
-  display.print((WiFi.macAddress()));
-  
-  display.setCursor(2, 22);
-  display.print(WiFi.RSSI());display.print("dBm");
   
   server.begin(); 
   server.on("/", handle_OnConnect);
@@ -136,7 +122,21 @@ if (WiFi.status() != WL_CONNECTED) {delay(1000);WiFi.begin(ssid,password);Serial
   if (minutes<10) {str_minutes='0'+String(minutes);} else {str_minutes=String(minutes);}
   formattedDate[288] = str_hours+':'+str_minutes;
   Serial.print("formattedDate[288]=");Serial.println(formattedDate[288]);
-  
+
+ // Clear the buffer.
+  display.clearDisplay();
+  // Display Text
+  display.setTextSize(1);
+  display.setTextColor(WHITE);
+  display.setCursor(2, 2);
+  display.print("IP:");
+  display.print(WiFi.localIP());
+  display.setCursor(2, 12);
+  display.print((WiFi.macAddress()));
+  display.setCursor(2, 22);
+  display.print(WiFi.RSSI());display.print("dBm");  
+
+
   delay(10000);
   //display.clearDisplay();
   }
@@ -162,14 +162,19 @@ void loop(void) {
     display.clearDisplay();
     display.setTextSize(2);
     display.setTextColor(WHITE);
-    display.setCursor(10, 5);
-    display.print(int(temp11[288])); 
-    display.setCursor(10, 25);
-    display.print(int(temp22[288]));
-    display.setCursor(55,5);
-    display.print(int(temp33[288]));
-    display.setCursor(55,25);
-    display.print(int(temp44[288]));
+    
+    display.setCursor(10, 6);
+    display.print("EVS: "); 
+
+    display.setCursor(55,6);
+    display.print(int(temp2));
+
+    display.setCursor(10, 26);
+    display.print("EVT: ");
+
+    display.setCursor(55,26);
+    display.print(int(temp4));
+    
     display.display();
     }
 }
@@ -183,7 +188,12 @@ void rectange_2() {
   delay(1000);
 }
 
+
+
+
+
 void handle_OnConnect() {
+
 sensors.requestTemperatures(); 
 temp1=sensors.getTempC(sensor1);
 temp2=sensors.getTempC(sensor2);
@@ -198,14 +208,18 @@ formattedDate2 = str_hours2+':'+str_minutes2; Serial.println(formattedDate2);
 display.clearDisplay();
 display.setTextSize(2);
 display.setTextColor(WHITE);
-display.setCursor(10, 5);
-display.print(int(temp1)); 
-display.setCursor(10, 25);
+
+display.setCursor(10, 6);
+display.print("EVS: "); 
+
+display.setCursor(55,6);
 display.print(int(temp2));
-display.setCursor(55,5);
-display.print(int(temp3));
-display.setCursor(55,25);
-display.print(-1*int(temp4));
+
+display.setCursor(10, 26);
+display.print("EVT: ");
+
+display.setCursor(55,26);
+display.print(int(temp4));
 
 
   server.send(200, "text/html", SendHTML(temp1,temp2));
@@ -250,8 +264,8 @@ ptr +="</head>                                                                  
 ptr +="<body>                                                                                                                                                                                        \n";
 
 ptr +=" <h1>TELEMETRY</h1>                                                                                                                                                                             \n";
-ptr +="<p>HOT="; ptr +=temp1;ptr +="    COLD=";ptr +=temp2; ptr +="</p>";
-ptr +="<p>INDOOR="; ptr +=temp3; ptr +="   OUTDOOR="; ptr +=temp4; ptr +="</p>";
+ptr +="<p>EVS-100:"; ptr +=temp1;
+ptr +="<p>EVT-100:"; ptr +=temp3;
 ptr +="<p>current time: "; ptr +=formattedDate2; ptr +="</p>";
 
 //Serial.print("IP address: "); Serial.println(WiFi.localIP());Serial.print("MAC=");Serial.println(WiFi.macAddress());Serial.print("Rx Level=");Serial.print(WiFi.RSSI());Serial.print("dBm");
@@ -605,14 +619,13 @@ ptr +="['"; ptr +=formattedDate[284]; ptr +="',"; ptr +=temp11[284]; ptr +=","; 
 ptr +="['"; ptr +=formattedDate[285]; ptr +="',"; ptr +=temp11[285]; ptr +=","; ptr +=temp22[285]; ptr +=",";  ptr +=temp33[285]; ptr +=","; ptr +=temp44[285];  ptr +=","; ptr +="],";
 ptr +="['"; ptr +=formattedDate[286]; ptr +="',"; ptr +=temp11[286]; ptr +=","; ptr +=temp22[286]; ptr +=",";  ptr +=temp33[286]; ptr +=","; ptr +=temp44[286];  ptr +=","; ptr +="],";
 ptr +="['"; ptr +=formattedDate[287]; ptr +="',"; ptr +=temp11[287]; ptr +=","; ptr +=temp22[287]; ptr +=",";  ptr +=temp33[287]; ptr +=","; ptr +=temp44[287];  ptr +=","; ptr +="],";
-
 ptr +="['"; ptr +=formattedDate[288]; ptr +="',"; ptr +=temp11[288]; ptr +=","; ptr +=temp22[288]; ptr +=",";  ptr +=temp33[288]; ptr +=","; ptr +=temp44[288];  ptr +="]];\n";
 
 ptr +="}\n";
 ptr +="</script>                                                                                                                                                                                     \n";
 
 ptr +="<p>WiFi Rx="; ptr +=Rx; ptr +="   dBm"; ptr +="</p>";
-ptr +="<p>IP "; ptr +=ip; ptr +="</p>";
+
 
 ptr +="</body>                                                                                                                                                                                       \n";
 ptr +="</html>                                                                                                                                                                                       \n";
