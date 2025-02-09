@@ -47,7 +47,7 @@ int minutes2;
 
 
 const char* ssid = "KOCTR KOMOB";
-const char* password =  "independence";  
+const char* password =  "";  
 // Set your Static IP address and set your Gateway IP address
 //const char* ssid = "MikroTik"; const char* password =  "*********";
 WebServer server(80);
