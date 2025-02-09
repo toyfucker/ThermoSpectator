@@ -36,9 +36,9 @@ String str_hours2;
 String ip;
 String formattedDate2;
 
-float temp1;float temp2;float temp3;float temp4;
+float temp1;float temp2;
 float Rx; /*WiFi Rx-level in dBm  (relation of 1.0 mW power)*/
-float temp11[289];float temp22[289];float temp33[289];float temp44[289]; /*Array type for storing temperatures value in each 5-th minutes period. If divide 24 hours to 5-th minutes interval, we'll get 248 */
+float temp11[289];float temp22[289]; /*Array type for storing temperatures value in each 5-th minutes period. If divide 24 hours to 5-th minutes interval, we'll get 248 */
 
 int hours; 
 int minutes;
@@ -151,7 +151,7 @@ void loop(void) {
   if(currentMillis1 - previousMillis1 > interval1) 
     {
     previousMillis1 = currentMillis1; 
-    for (int i=1;i<288;i++) {temp11[i]=temp11[i+1];temp22[i]=temp22[i+1];temp33[i]=temp33[i+1];temp44[i]=temp44[i+1];formattedDate[i]=formattedDate[i+1];}
+    for (int i=1;i<288;i++) {temp11[i]=temp11[i+1];temp22[i]=temp22[i+1];formattedDate[i]=formattedDate[i+1];}
     
     sensors.requestTemperatures();temp11[288]=sensors.getTempC(sensor1);temp22[288]=sensors.getTempC(sensor2);
     
@@ -169,13 +169,13 @@ void loop(void) {
     display.print("EVS: "); 
 
     display.setCursor(57,6);
-    display.print(temp2);
+    display.print(temp1);
 
     display.setCursor(10, 26);
     display.print("EVT: ");
 
     display.setCursor(57,26);
-    display.print(temp4);
+    display.print(temp2);
     
     display.display();
     }
